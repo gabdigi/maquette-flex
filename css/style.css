@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.color-1 {
+    color: #ff9900;
+}
+
+body {
+    background-color: black;
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+header {
+    margin: 50px 0 0 0;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_container_left h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    
+}
+
+.header_container_right p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.header_container_right input {
+    border-radius: 15px;
+    border: none;
+    background-color: #222222;
+    height: 25px;
+    width: 220px;
+}
+
+
+nav {
+   margin: 40px 0 50px;
+   border-top: 1px solid grey;
+   border-bottom: 1px solid grey;
+    
+}
+
+nav ul{
+    display: flex;
+    margin: 10px 0;
+}
+
+nav ul li{
+    margin: 0 7.5px;
+    color: white;
+}
+
+nav ul li:hover {
+    color: #ff9900;
+}
+
+.section-1 {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.section-1 div  {
+    width: 800px;
+}
+
+.section-1 div h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section-1 div p {
+    hyphens: auto;
+    font-size: 23px;
+    text-align: center;
+    font-style: italic;
+}
+
+.section-2 {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section-2 img{
+    box-shadow: 0px 10px 0px #161616
+}
+
+.section-2 span {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+}
+
+.section-3 {
+    margin: 50px 0 0 0;
+    background-color: white;
+}
+
+.section-3 article {
+    padding: 50px ;
+    display: flex;
+    
+}
+.section-3 .article-div1-divHaut{
+    display: flex;
+    margin-bottom: 10px;
+     
+}
+.section-3 .article-div1-divHaut h2{
+    font-size: 16px;
+    align-items: center;
+    margin : 10px 0 0 10px;
+    
+}
+
+footer {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 30px 0;
+    margin: 60px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+footer div h4 {
+    margin-bottom: 40px;
+
+}
+
+
+.footer-div-1, .footer-div-2, .footer-div-3, .footer-div-4{
+    width: 210px;
+}
+
+.footer-div-1 p{
+    margin-top: 20px;
+}
+
+.footer-div-1-p-2{
+    text-align: right;
+}
+
+.footer-div-2 h4{
+    margin-bottom: 10px;
+}
+
+.footer-div-2 ul{
+    margin-top: 20px;
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-div-2 ul li{
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+}
+
+
+.footer-div-3 p{
+    margin-top: 20px;
+}
+
+.footer-div-4 ul li{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    
+}
+
+.footer-div-4 ul li p{
+    margin-left: 13px;
+}
+
+.footer-div-4 span {
+   color: #ff9900;
+    
+}
+
+.footer-div-4 div {
+    background-color: #252525;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-div-4 img {
+    color: white;
+    height: 22.5px;
+    
+    
+}
+
+.div-externe-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
